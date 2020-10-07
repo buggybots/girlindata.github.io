@@ -1,0 +1,91 @@
+/* Write some CSS below */
+
+body {
+	/* margin: 0; */
+	background: rgb(255, 255, 255);
+	font-family: 'Nunito', sans-serif;
+	font-size-adjust: inherit;
+	font-weight: 400;
+	/*font-family: Lato*/
+}
+
+.container {
+	width: 100%;
+	/* margin: 0; */
+}
+
+
+.logo {
+	float: left;
+	padding: 10px 0;
+
+}
+
+nav {
+	background: #f6c8bd;
+	float: right;
+	margin-top: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+
+
+nav a {
+	color: rgb(68, 68, 68);
+	text-decoration: none;
+	/* text-transform: uppercase; */
+	font-size: 18px;
+}
+
+nav a:hover{
+	color: 	#ed787b;
+
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: rgb(68, 68, 68);
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 1000 ms;
+}
+
+nav a:hover::before {
+	width: 100%
+}
+
+a {
+	background-color: #02b9b9
+	font-weight: bold;
+	color: grey;
+	text-decoration: none;
+	padding: 16px 24px;
+	border-radius: 4px;
+	transition: .3s;
+}
+
+/*suggested*/
+a:hover {
+  /* color: #e86f57; */
+  color: #d13d1f;
+  /* font-size: 20px; */
+}
+
+.flower {
+	position: relative;
+}
